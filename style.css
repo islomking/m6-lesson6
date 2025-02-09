@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .scoreboard {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hamster-area {
+    margin: 20px 0;
+  }
+  
+  .hamster {
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .progress {
+    margin: 20px auto;
+    width: 80%;
+    background: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 20px;
+    position: relative;
+  }
+  
+  .progress-bar {
+    background: #76c7c0;
+    width: 0%;
+    height: 100%;
+    transition: width 0.2s;
+  }
+  
+  .boost-button {
+    background-color: #f08a5d;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .boost-button:hover {
+    background-color: #ff6f61;
+  }
+  
